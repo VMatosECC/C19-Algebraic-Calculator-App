@@ -20,7 +20,7 @@ int main()
 	string exp = "(1 + 5)*((2 + 4/2) % 3)";
 	do
 	{
-		cout << "\nEnter an infix expression - use spaces aroung operator [xxx to end]: \n";
+		cout << "\nEnter an infix expression - use spaces around the operators [xxx to end]: \n";
 		getline(cin, exp);
 		if (exp == "xxx") break;
 		string expRPN = infixToPostfix(exp);
